@@ -1,0 +1,40 @@
+.share-box{
+   
+    background-color: white;
+    width: 400px;
+    height: auto;
+    text-align: center;
+    color: black;
+    text-transform: capitalize;
+    border:1px solid rgba(226, 226, 226, 0.791) ;
+    border-radius: 12px;
+}
+.related{
+    position: fixed;
+    left: 550px;
+}
+
+.red{
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+}
+.list-share{
+    cursor: pointer;
+   padding: 10px 0px;
+    border-bottom:1px solid rgba(226, 226, 226, 0.791) ;
+}
+.list-share:last-child{
+ border: none;
+}
+.list-of{
+    display: flex;
+   
+    align-items: center;
+    position:fixed;
+    background-color: rgba(226, 226, 226, 0.68);
+    top: 0;
+    width: 260%;
+    height: 100vh;
+    left:0;
+}

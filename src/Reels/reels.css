@@ -1,0 +1,116 @@
+.reels-main{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+left: 30%;
+}
+.reels-video{
+   
+margin: 20px 0px 0px 20px;
+}
+video{
+    
+    width: 350px;
+}
+.reels-buttom{
+position: absolute;
+color: white;
+bottom: 40px;
+}
+.reels-l-n-f{
+display: flex;
+align-items: center;
+margin-left: 14px;
+margin-bottom: 15px;
+}
+.reels-l-n-f img{
+    margin-right:5px;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+}
+.reels-name{
+    margin-right: 5px;
+font-size: 14px;
+font-weight: 500;
+color: white;
+}
+.reels-p-btn{
+    margin-left: 15px;
+    align-items: center;
+    display: flex;
+}
+.reels-point{
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: white;
+}
+.btn{
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight:400;
+    border: 1px solid white;
+    border-radius:12px ;
+color: white;
+}
+.btn:hover{
+    border: 1px solid white;
+}
+.reels-icon-a-lo{
+    width: 100%;
+    margin-left: 14px;
+    margin-bottom:5px ;
+display: flex;
+color: #fffefe;
+}
+
+
+.reels-run{
+    margin-right:5px;
+    font-size: 14px;
+width: 70px;
+direction: "left";
+height: 20px;
+}
+.reels-audio{
+    font-size: 15px;
+    margin-left:5px;
+    display: flex;
+color: white;
+}
+.reels-comment{
+    width: 320px;
+    margin-left: 14px;
+    font-size: 14px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.reels-icon-list{
+    display: flex;
+    justify-content: end;
+    align-items: center; 
+    gap: 35px;
+    flex-direction: column;
+    height: 100%;
+}
+.reel-audio-box{
+    border: 3px solid rgb(170, 170, 170);
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    margin-bottom: 22px;
+}
+.reel-audio-box img{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border-radius: 6px;
+}
+.reels-like-count{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

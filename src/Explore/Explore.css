@@ -1,0 +1,45 @@
+
+.Explore-img{
+   
+    padding: 5px;
+   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 250px;
+    width: 250px;
+}
+
+.Expor-main{
+    display: flex;
+    align-items: center;
+}
+.Explore-video{
+    width: 278px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5px;
+    
+}
+source{
+    width: 100%;
+}
+
+@media only screen and (max-width:880px) {
+    .Explore-img{
+        height: 120px;
+        width: 120px;
+    }
+    .Explore-video{
+        width: 133px;
+        height: 230px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 5px;
+        
+    }
+}
+
+
+
